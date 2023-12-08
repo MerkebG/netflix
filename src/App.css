@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+}
+body {
+  background: #000000;
+}
+
+.row {
+  color: white;
+  margin-left: 20px;
+}
+
+/* Hide scrollbar for webkit-based browsers (Chrome, Safari, etc.) */
+body::-webkit-scrollbar {
+  display: none;
+}
+.element {
+  position: relative; /* or any other value that creates a stacking context */
+  z-index: 10;
+}
